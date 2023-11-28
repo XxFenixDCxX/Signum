@@ -1,0 +1,12 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.Signum" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your dark theme here. -->
+        <!-- <item name="colorPrimary">@color/my_dark_primary</item> -->
+        <item name="colorPrimary">@color/blue_200</item>
+        <!-- Primary dark brand color for the status bar. -->
+        <item name="colorPrimaryDark">@color/blue_500</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/blue_700</item>
+    </style>
+</resources>

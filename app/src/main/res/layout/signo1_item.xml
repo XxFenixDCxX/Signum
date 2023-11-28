@@ -1,0 +1,31 @@
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/border"
+    android:layout_margin="10dp"
+    android:elevation="10dp">
+
+    <ImageView
+        android:id="@+id/imageViewSigno"
+        android:layout_width="377dp"
+        android:layout_height="296dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.36"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/ciudad_acera" />
+
+    <TextView
+        android:id="@+id/textViewSigno"
+        android:layout_width="377dp"
+        android:layout_height="45dp"
+        android:gravity="center"
+        android:textSize="24sp"
+        android:text="Acera"
+        app:layout_constraintEnd_toEndOf="@+id/imageViewSigno"
+        app:layout_constraintStart_toStartOf="@+id/imageViewSigno"
+        app:layout_constraintTop_toBottomOf="@+id/imageViewSigno" />
+</androidx.constraintlayout.widget.ConstraintLayout>
