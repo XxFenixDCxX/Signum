@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name" translatable="false">Signum</string>
+    <string name="home" translatable="false">home</string>
+    <string name="dictionary" translatable="false">Diccionario</string>
+    <string name="practice" translatable="false">Practicar</string>
+    <string name="explorer" translatable="false">Explorar</string>
+    <string name="practicarAhora" translatable="false">¡Practicar ahora!</string>
+    <string name="volver" translatable="false">Volver</string>
+
+
+</resources>
